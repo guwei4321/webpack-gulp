@@ -15,6 +15,10 @@ var stopTestServer;
 var webpackRun;
 var runTests;
 
+
+
+
+
 function notifyBuildFailed () {
 	gutil.log(gutil.colors.red('Build failed'));
 	notifier.notify({
